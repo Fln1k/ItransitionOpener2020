@@ -22,6 +22,7 @@ def is_sum_cubes(n):
 previous_flag = False
 answer = None
 for k in range(1000001):
+    print(k)
     temp_flag = is_sum_cubes(k)
     if temp_flag and previous_flag:
         answer = k
